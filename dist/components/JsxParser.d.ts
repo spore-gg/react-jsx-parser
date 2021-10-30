@@ -13,7 +13,7 @@ export declare type TProps = {
     disableFragments?: boolean;
     disableKeyGeneration?: boolean;
     jsx?: string;
-    onError?: (error: Error) => void;
+    onError?: (error: any) => void;
     showWarnings?: boolean;
     renderError?: (props: {
         error: string;
